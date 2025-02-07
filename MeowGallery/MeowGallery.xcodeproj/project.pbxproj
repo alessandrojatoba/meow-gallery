@@ -14,7 +14,7 @@
 		9B7AB2452D54F39C0018A4E3 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB2442D54F39C0018A4E3 /* Cat.swift */; };
 		9B7AB2482D54F3CB0018A4E3 /* CatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB2472D54F3CB0018A4E3 /* CatViewModel.swift */; };
 		9B7AB24B2D54F40F0018A4E3 /* CatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB24A2D54F40F0018A4E3 /* CatListView.swift */; };
-		9B7AB24E2D54F5520018A4E3 /* CatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB24D2D54F5520018A4E3 /* CatService.swift */; };
+		9B7AB24E2D54F5520018A4E3 /* CatAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB24D2D54F5520018A4E3 /* CatAPIService.swift */; };
 		9B7AB2502D54F6640018A4E3 /* CatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB24F2D54F6640018A4E3 /* CatDetailView.swift */; };
 		9B7AB2522D54F77C0018A4E3 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB2512D54F77C0018A4E3 /* Breed.swift */; };
 		9B7AB2692D55E78E0018A4E3 /* Meow_GalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB2682D55E78E0018A4E3 /* Meow_GalleryUITests.swift */; };
@@ -48,7 +48,7 @@
 		9B7AB2442D54F39C0018A4E3 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 		9B7AB2472D54F3CB0018A4E3 /* CatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModel.swift; sourceTree = "<group>"; };
 		9B7AB24A2D54F40F0018A4E3 /* CatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListView.swift; sourceTree = "<group>"; };
-		9B7AB24D2D54F5520018A4E3 /* CatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatService.swift; sourceTree = "<group>"; };
+		9B7AB24D2D54F5520018A4E3 /* CatAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatAPIService.swift; sourceTree = "<group>"; };
 		9B7AB24F2D54F6640018A4E3 /* CatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailView.swift; sourceTree = "<group>"; };
 		9B7AB2512D54F77C0018A4E3 /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
 		9B7AB2662D55E78D0018A4E3 /* MeowGalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeowGalleryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,7 +155,7 @@
 		9B7AB24C2D54F5400018A4E3 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				9B7AB24D2D54F5520018A4E3 /* CatService.swift */,
+				9B7AB24D2D54F5520018A4E3 /* CatAPIService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -308,7 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B7AB2522D54F77C0018A4E3 /* Breed.swift in Sources */,
-				9B7AB24E2D54F5520018A4E3 /* CatService.swift in Sources */,
+				9B7AB24E2D54F5520018A4E3 /* CatAPIService.swift in Sources */,
 				9B7AB21C2D54F31F0018A4E3 /* ContentView.swift in Sources */,
 				9B7AB24B2D54F40F0018A4E3 /* CatListView.swift in Sources */,
 				9B7AB2482D54F3CB0018A4E3 /* CatViewModel.swift in Sources */,
