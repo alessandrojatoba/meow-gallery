@@ -70,8 +70,8 @@ Represents detailed breed information, including:
 
 ## Screenshots
 
-![List View](screenshots/list-view.png?raw=true "List View") { width=50% }
-![Detail View](screenshots/detail-view.png?raw=true "Detail View") { width=50% }
+![List View](screenshots/list-view.png?raw=true "List View") {:width="200px"}
+![Detail View](screenshots/detail-view.png?raw=true "Detail View") {:width="200px"}
  
 ## 🏗 Installation & Usage
 
