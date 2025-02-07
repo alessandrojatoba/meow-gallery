@@ -12,12 +12,12 @@ class CatViewModel: ObservableObject {
     @Published var isLoading = false
     @Published var errorMessage: String?
 
-    private let catService: CatServiceProtocol
+    private let catService: CatAPIServiceProtocol
     private var currentPage = 0
     private let limit = 10
     public var isFetching = false
 
-    init(catService: CatServiceProtocol = CatService()) {
+    init(catService: CatAPIServiceProtocol = CatAPIService()) {
         self.catService = catService
     }
 

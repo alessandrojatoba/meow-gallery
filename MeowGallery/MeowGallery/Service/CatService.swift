@@ -7,11 +7,11 @@
 
 import Foundation
 
-protocol CatServiceProtocol {
+protocol CatAPIServiceProtocol {
     func fetchCats(page: Int, limit: Int, completion: @escaping (Result<[Cat], Error>) -> Void)
 }
 
-class CatService: CatServiceProtocol {
+class CatAPIService: CatAPIServiceProtocol {
     private let baseURL = "https://api.thecatapi.com/v1/images/search"
     private let api_key = "live_hlfSPhGRERGtfYQy6oIPbnrcZItNvF94sVzdwrsbIThVV5F9POgeq1yzCLPar0Oi"
 
