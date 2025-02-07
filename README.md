@@ -68,6 +68,11 @@ Represents detailed breed information, including:
 ✅ Navigate between list and detail views
 ✅ Unit and UI tests for reliability
 
+## Screenshots
+
+![List View](screenshots/list-view.jpg?raw=true "List View")
+![Detail View](screenshots/detail-view.jpg?raw=true "Detail View")
+
 ## 🏗 Installation & Usage
 
 1. Clone this repository:
