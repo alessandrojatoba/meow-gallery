@@ -86,9 +86,9 @@
 		9B7AB20D2D54F31F0018A4E3 = {
 			isa = PBXGroup;
 			children = (
-				9B7AB2182D54F31F0018A4E3 /* Meow Gallery */,
-				9B7AB2672D55E78E0018A4E3 /* Meow GalleryUITests */,
-				9B7AB2902D5693EA0018A4E3 /* Meow GalleryTests */,
+				9B7AB2182D54F31F0018A4E3 /* MeowGallery */,
+				9B7AB2672D55E78E0018A4E3 /* MeowGalleryUITests */,
+				9B7AB2902D5693EA0018A4E3 /* MeowGalleryTests */,
 				9B7AB2172D54F31F0018A4E3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,7 +103,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B7AB2182D54F31F0018A4E3 /* Meow Gallery */ = {
+		9B7AB2182D54F31F0018A4E3 /* MeowGallery */ = {
 			isa = PBXGroup;
 			children = (
 				9B7AB24C2D54F5400018A4E3 /* Service */,
@@ -115,7 +115,7 @@
 				9B7AB21D2D54F3200018A4E3 /* Assets.xcassets */,
 				9B7AB21F2D54F3200018A4E3 /* Preview Content */,
 			);
-			path = "Meow Gallery";
+			path = MeowGallery;
 			sourceTree = "<group>";
 		};
 		9B7AB21F2D54F3200018A4E3 /* Preview Content */ = {
@@ -160,21 +160,21 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		9B7AB2672D55E78E0018A4E3 /* Meow GalleryUITests */ = {
+		9B7AB2672D55E78E0018A4E3 /* MeowGalleryUITests */ = {
 			isa = PBXGroup;
 			children = (
 				9B7AB2682D55E78E0018A4E3 /* Meow_GalleryUITests.swift */,
 				9B7AB26A2D55E78E0018A4E3 /* Meow_GalleryUITestsLaunchTests.swift */,
 			);
-			path = "Meow GalleryUITests";
+			path = MeowGalleryUITests;
 			sourceTree = "<group>";
 		};
-		9B7AB2902D5693EA0018A4E3 /* Meow GalleryTests */ = {
+		9B7AB2902D5693EA0018A4E3 /* MeowGalleryTests */ = {
 			isa = PBXGroup;
 			children = (
 				9B7AB2912D5693EA0018A4E3 /* Meow_GalleryTests.swift */,
 			);
-			path = "Meow GalleryTests";
+			path = MeowGalleryTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,7 +477,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Meow Gallery/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MeowGallery/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -505,7 +505,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Meow Gallery/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MeowGallery/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -535,10 +535,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.exsquared.meowgallery.Meow-GalleryUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Meow Gallery";
+				TEST_TARGET_NAME = MeowGallery;
 			};
 			name = Debug;
 		};
@@ -551,10 +552,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.exsquared.meowgallery.Meow-GalleryUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Meow Gallery";
+				TEST_TARGET_NAME = MeowGallery;
 			};
 			name = Release;
 		};

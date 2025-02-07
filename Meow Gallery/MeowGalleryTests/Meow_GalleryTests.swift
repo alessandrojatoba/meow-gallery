@@ -7,7 +7,7 @@
 
 import XCTest
 
-@testable import Meow_Gallery
+@testable import MeowGallery
 
 final class Meow_GalleryTests: XCTestCase {
 
