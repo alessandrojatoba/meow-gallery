@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9B7AB2152D54F31F0018A4E3"
-               BuildableName = "Meow Gallery.app"
-               BlueprintName = "Meow Gallery"
-               ReferencedContainer = "container:Meow Gallery.xcodeproj">
+               BuildableName = "MeowGallery.app"
+               BlueprintName = "MeowGallery"
+               ReferencedContainer = "container:MeowGallery.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,9 +35,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9B7AB28E2D5693EA0018A4E3"
-               BuildableName = "Meow GalleryTests.xctest"
-               BlueprintName = "Meow GalleryTests"
-               ReferencedContainer = "container:Meow Gallery.xcodeproj">
+               BuildableName = "MeowGalleryTests.xctest"
+               BlueprintName = "MeowGalleryTests"
+               ReferencedContainer = "container:MeowGallery.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -46,9 +46,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9B7AB2652D55E78D0018A4E3"
-               BuildableName = "Meow GalleryUITests.xctest"
-               BlueprintName = "Meow GalleryUITests"
-               ReferencedContainer = "container:Meow Gallery.xcodeproj">
+               BuildableName = "MeowGalleryUITests.xctest"
+               BlueprintName = "MeowGalleryUITests"
+               ReferencedContainer = "container:MeowGallery.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -68,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9B7AB2152D54F31F0018A4E3"
-            BuildableName = "Meow Gallery.app"
-            BlueprintName = "Meow Gallery"
-            ReferencedContainer = "container:Meow Gallery.xcodeproj">
+            BuildableName = "MeowGallery.app"
+            BlueprintName = "MeowGallery"
+            ReferencedContainer = "container:MeowGallery.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9B7AB2152D54F31F0018A4E3"
-            BuildableName = "Meow Gallery.app"
-            BlueprintName = "Meow Gallery"
-            ReferencedContainer = "container:Meow Gallery.xcodeproj">
+            BuildableName = "MeowGallery.app"
+            BlueprintName = "MeowGallery"
+            ReferencedContainer = "container:MeowGallery.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
