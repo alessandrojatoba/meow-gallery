@@ -7,12 +7,15 @@
 
 import Foundation
 
-class CatService {
-    static let shared = CatService()
+protocol CatServiceProtocol {
+    func fetchCats(page: Int, limit: Int, completion: @escaping (Result<[Cat], Error>) -> Void)
+}
+
+class CatService: CatServiceProtocol {
     private let baseURL = "https://api.thecatapi.com/v1/images/search"
     private let api_key = "live_hlfSPhGRERGtfYQy6oIPbnrcZItNvF94sVzdwrsbIThVV5F9POgeq1yzCLPar0Oi"
 
-    func fetchCats(page: Int, limit: Int, completion: @escaping (Result<[Cat], Error>) -> Void) {
+    func fetchCats(page: Int, limit: Int, completion: @escaping (Result<[Cat], Error>) -> Void)  {
         let urlString = "\(baseURL)?limit=\(limit)&page=\(page)&has_breeds=1&api_key=\(api_key)"
 
         guard let url = URL(string: urlString) else {

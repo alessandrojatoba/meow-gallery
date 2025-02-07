@@ -11,26 +11,26 @@
 		9B7AB21C2D54F31F0018A4E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB21B2D54F31F0018A4E3 /* ContentView.swift */; };
 		9B7AB21E2D54F3200018A4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7AB21D2D54F3200018A4E3 /* Assets.xcassets */; };
 		9B7AB2212D54F3200018A4E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7AB2202D54F3200018A4E3 /* Preview Assets.xcassets */; };
-		9B7AB22B2D54F3200018A4E3 /* Meow_GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB22A2D54F3200018A4E3 /* Meow_GalleryTests.swift */; };
-		9B7AB2352D54F3200018A4E3 /* Meow_GalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB2342D54F3200018A4E3 /* Meow_GalleryUITests.swift */; };
-		9B7AB2372D54F3200018A4E3 /* Meow_GalleryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB2362D54F3200018A4E3 /* Meow_GalleryUITestsLaunchTests.swift */; };
 		9B7AB2452D54F39C0018A4E3 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB2442D54F39C0018A4E3 /* Cat.swift */; };
 		9B7AB2482D54F3CB0018A4E3 /* CatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB2472D54F3CB0018A4E3 /* CatViewModel.swift */; };
 		9B7AB24B2D54F40F0018A4E3 /* CatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB24A2D54F40F0018A4E3 /* CatListView.swift */; };
 		9B7AB24E2D54F5520018A4E3 /* CatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB24D2D54F5520018A4E3 /* CatService.swift */; };
 		9B7AB2502D54F6640018A4E3 /* CatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB24F2D54F6640018A4E3 /* CatDetailView.swift */; };
 		9B7AB2522D54F77C0018A4E3 /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB2512D54F77C0018A4E3 /* Breed.swift */; };
+		9B7AB2692D55E78E0018A4E3 /* Meow_GalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB2682D55E78E0018A4E3 /* Meow_GalleryUITests.swift */; };
+		9B7AB26B2D55E78E0018A4E3 /* Meow_GalleryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB26A2D55E78E0018A4E3 /* Meow_GalleryUITestsLaunchTests.swift */; };
+		9B7AB2922D5693EA0018A4E3 /* Meow_GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AB2912D5693EA0018A4E3 /* Meow_GalleryTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9B7AB2272D54F3200018A4E3 /* PBXContainerItemProxy */ = {
+		9B7AB26C2D55E78E0018A4E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9B7AB20E2D54F31F0018A4E3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9B7AB2152D54F31F0018A4E3;
 			remoteInfo = "Meow Gallery";
 		};
-		9B7AB2312D54F3200018A4E3 /* PBXContainerItemProxy */ = {
+		9B7AB2932D5693EA0018A4E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9B7AB20E2D54F31F0018A4E3 /* Project object */;
 			proxyType = 1;
@@ -45,17 +45,17 @@
 		9B7AB21B2D54F31F0018A4E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B7AB21D2D54F3200018A4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B7AB2202D54F3200018A4E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9B7AB2262D54F3200018A4E3 /* Meow GalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meow GalleryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B7AB22A2D54F3200018A4E3 /* Meow_GalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meow_GalleryTests.swift; sourceTree = "<group>"; };
-		9B7AB2302D54F3200018A4E3 /* Meow GalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meow GalleryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B7AB2342D54F3200018A4E3 /* Meow_GalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meow_GalleryUITests.swift; sourceTree = "<group>"; };
-		9B7AB2362D54F3200018A4E3 /* Meow_GalleryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meow_GalleryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9B7AB2442D54F39C0018A4E3 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 		9B7AB2472D54F3CB0018A4E3 /* CatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModel.swift; sourceTree = "<group>"; };
 		9B7AB24A2D54F40F0018A4E3 /* CatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatListView.swift; sourceTree = "<group>"; };
 		9B7AB24D2D54F5520018A4E3 /* CatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatService.swift; sourceTree = "<group>"; };
 		9B7AB24F2D54F6640018A4E3 /* CatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailView.swift; sourceTree = "<group>"; };
 		9B7AB2512D54F77C0018A4E3 /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		9B7AB2662D55E78D0018A4E3 /* Meow GalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meow GalleryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7AB2682D55E78E0018A4E3 /* Meow_GalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meow_GalleryUITests.swift; sourceTree = "<group>"; };
+		9B7AB26A2D55E78E0018A4E3 /* Meow_GalleryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meow_GalleryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B7AB28F2D5693EA0018A4E3 /* Meow GalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meow GalleryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7AB2912D5693EA0018A4E3 /* Meow_GalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meow_GalleryTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,14 +66,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B7AB2232D54F3200018A4E3 /* Frameworks */ = {
+		9B7AB2632D55E78D0018A4E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B7AB22D2D54F3200018A4E3 /* Frameworks */ = {
+		9B7AB28C2D5693EA0018A4E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,8 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				9B7AB2182D54F31F0018A4E3 /* Meow Gallery */,
-				9B7AB2292D54F3200018A4E3 /* Meow GalleryTests */,
-				9B7AB2332D54F3200018A4E3 /* Meow GalleryUITests */,
+				9B7AB2672D55E78E0018A4E3 /* Meow GalleryUITests */,
+				9B7AB2902D5693EA0018A4E3 /* Meow GalleryTests */,
 				9B7AB2172D54F31F0018A4E3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,8 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				9B7AB2162D54F31F0018A4E3 /* Meow Gallery.app */,
-				9B7AB2262D54F3200018A4E3 /* Meow GalleryTests.xctest */,
-				9B7AB2302D54F3200018A4E3 /* Meow GalleryUITests.xctest */,
+				9B7AB2662D55E78D0018A4E3 /* Meow GalleryUITests.xctest */,
+				9B7AB28F2D5693EA0018A4E3 /* Meow GalleryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,23 +124,6 @@
 				9B7AB2202D54F3200018A4E3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		9B7AB2292D54F3200018A4E3 /* Meow GalleryTests */ = {
-			isa = PBXGroup;
-			children = (
-				9B7AB22A2D54F3200018A4E3 /* Meow_GalleryTests.swift */,
-			);
-			path = "Meow GalleryTests";
-			sourceTree = "<group>";
-		};
-		9B7AB2332D54F3200018A4E3 /* Meow GalleryUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9B7AB2342D54F3200018A4E3 /* Meow_GalleryUITests.swift */,
-				9B7AB2362D54F3200018A4E3 /* Meow_GalleryUITestsLaunchTests.swift */,
-			);
-			path = "Meow GalleryUITests";
 			sourceTree = "<group>";
 		};
 		9B7AB2432D54F3740018A4E3 /* Model */ = {
@@ -177,6 +160,23 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		9B7AB2672D55E78E0018A4E3 /* Meow GalleryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B7AB2682D55E78E0018A4E3 /* Meow_GalleryUITests.swift */,
+				9B7AB26A2D55E78E0018A4E3 /* Meow_GalleryUITestsLaunchTests.swift */,
+			);
+			path = "Meow GalleryUITests";
+			sourceTree = "<group>";
+		};
+		9B7AB2902D5693EA0018A4E3 /* Meow GalleryTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B7AB2912D5693EA0018A4E3 /* Meow_GalleryTests.swift */,
+			);
+			path = "Meow GalleryTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,41 +197,41 @@
 			productReference = 9B7AB2162D54F31F0018A4E3 /* Meow Gallery.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9B7AB2252D54F3200018A4E3 /* Meow GalleryTests */ = {
+		9B7AB2652D55E78D0018A4E3 /* Meow GalleryUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B7AB23D2D54F3200018A4E3 /* Build configuration list for PBXNativeTarget "Meow GalleryTests" */;
+			buildConfigurationList = 9B7AB26E2D55E78E0018A4E3 /* Build configuration list for PBXNativeTarget "Meow GalleryUITests" */;
 			buildPhases = (
-				9B7AB2222D54F3200018A4E3 /* Sources */,
-				9B7AB2232D54F3200018A4E3 /* Frameworks */,
-				9B7AB2242D54F3200018A4E3 /* Resources */,
+				9B7AB2622D55E78D0018A4E3 /* Sources */,
+				9B7AB2632D55E78D0018A4E3 /* Frameworks */,
+				9B7AB2642D55E78D0018A4E3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9B7AB2282D54F3200018A4E3 /* PBXTargetDependency */,
-			);
-			name = "Meow GalleryTests";
-			productName = "Meow GalleryTests";
-			productReference = 9B7AB2262D54F3200018A4E3 /* Meow GalleryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9B7AB22F2D54F3200018A4E3 /* Meow GalleryUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9B7AB2402D54F3200018A4E3 /* Build configuration list for PBXNativeTarget "Meow GalleryUITests" */;
-			buildPhases = (
-				9B7AB22C2D54F3200018A4E3 /* Sources */,
-				9B7AB22D2D54F3200018A4E3 /* Frameworks */,
-				9B7AB22E2D54F3200018A4E3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9B7AB2322D54F3200018A4E3 /* PBXTargetDependency */,
+				9B7AB26D2D55E78E0018A4E3 /* PBXTargetDependency */,
 			);
 			name = "Meow GalleryUITests";
 			productName = "Meow GalleryUITests";
-			productReference = 9B7AB2302D54F3200018A4E3 /* Meow GalleryUITests.xctest */;
+			productReference = 9B7AB2662D55E78D0018A4E3 /* Meow GalleryUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9B7AB28E2D5693EA0018A4E3 /* Meow GalleryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B7AB2952D5693EA0018A4E3 /* Build configuration list for PBXNativeTarget "Meow GalleryTests" */;
+			buildPhases = (
+				9B7AB28B2D5693EA0018A4E3 /* Sources */,
+				9B7AB28C2D5693EA0018A4E3 /* Frameworks */,
+				9B7AB28D2D5693EA0018A4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B7AB2942D5693EA0018A4E3 /* PBXTargetDependency */,
+			);
+			name = "Meow GalleryTests";
+			productName = "Meow GalleryTests";
+			productReference = 9B7AB28F2D5693EA0018A4E3 /* Meow GalleryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -246,11 +246,11 @@
 					9B7AB2152D54F31F0018A4E3 = {
 						CreatedOnToolsVersion = 15.2;
 					};
-					9B7AB2252D54F3200018A4E3 = {
+					9B7AB2652D55E78D0018A4E3 = {
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = 9B7AB2152D54F31F0018A4E3;
 					};
-					9B7AB22F2D54F3200018A4E3 = {
+					9B7AB28E2D5693EA0018A4E3 = {
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = 9B7AB2152D54F31F0018A4E3;
 					};
@@ -270,8 +270,8 @@
 			projectRoot = "";
 			targets = (
 				9B7AB2152D54F31F0018A4E3 /* Meow Gallery */,
-				9B7AB2252D54F3200018A4E3 /* Meow GalleryTests */,
-				9B7AB22F2D54F3200018A4E3 /* Meow GalleryUITests */,
+				9B7AB2652D55E78D0018A4E3 /* Meow GalleryUITests */,
+				9B7AB28E2D5693EA0018A4E3 /* Meow GalleryTests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,14 +286,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B7AB2242D54F3200018A4E3 /* Resources */ = {
+		9B7AB2642D55E78D0018A4E3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B7AB22E2D54F3200018A4E3 /* Resources */ = {
+		9B7AB28D2D5693EA0018A4E3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,35 +318,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B7AB2222D54F3200018A4E3 /* Sources */ = {
+		9B7AB2622D55E78D0018A4E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B7AB22B2D54F3200018A4E3 /* Meow_GalleryTests.swift in Sources */,
+				9B7AB2692D55E78E0018A4E3 /* Meow_GalleryUITests.swift in Sources */,
+				9B7AB26B2D55E78E0018A4E3 /* Meow_GalleryUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B7AB22C2D54F3200018A4E3 /* Sources */ = {
+		9B7AB28B2D5693EA0018A4E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B7AB2352D54F3200018A4E3 /* Meow_GalleryUITests.swift in Sources */,
-				9B7AB2372D54F3200018A4E3 /* Meow_GalleryUITestsLaunchTests.swift in Sources */,
+				9B7AB2922D5693EA0018A4E3 /* Meow_GalleryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9B7AB2282D54F3200018A4E3 /* PBXTargetDependency */ = {
+		9B7AB26D2D55E78E0018A4E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9B7AB2152D54F31F0018A4E3 /* Meow Gallery */;
-			targetProxy = 9B7AB2272D54F3200018A4E3 /* PBXContainerItemProxy */;
+			targetProxy = 9B7AB26C2D55E78E0018A4E3 /* PBXContainerItemProxy */;
 		};
-		9B7AB2322D54F3200018A4E3 /* PBXTargetDependency */ = {
+		9B7AB2942D5693EA0018A4E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9B7AB2152D54F31F0018A4E3 /* Meow Gallery */;
-			targetProxy = 9B7AB2312D54F3200018A4E3 /* PBXContainerItemProxy */;
+			targetProxy = 9B7AB2932D5693EA0018A4E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -526,75 +526,77 @@
 			};
 			name = Release;
 		};
-		9B7AB23E2D54F3200018A4E3 /* Debug */ = {
+		9B7AB26F2D55E78E0018A4E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.exsquared.meowgallery.Meow-GalleryTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exsquared.meowgallery.Meow-GalleryUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meow Gallery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meow Gallery";
+				TEST_TARGET_NAME = "Meow Gallery";
 			};
 			name = Debug;
 		};
-		9B7AB23F2D54F3200018A4E3 /* Release */ = {
+		9B7AB2702D55E78E0018A4E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.exsquared.meowgallery.Meow-GalleryTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exsquared.meowgallery.Meow-GalleryUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meow Gallery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meow Gallery";
+				TEST_TARGET_NAME = "Meow Gallery";
 			};
 			name = Release;
 		};
-		9B7AB2412D54F3200018A4E3 /* Debug */ = {
+		9B7AB2962D5693EA0018A4E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.exsquared.meowgallery.Meow-GalleryUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exsquared.meowgallery.Meow-GalleryTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Meow Gallery";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meow Gallery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meow Gallery";
 			};
 			name = Debug;
 		};
-		9B7AB2422D54F3200018A4E3 /* Release */ = {
+		9B7AB2972D5693EA0018A4E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.exsquared.meowgallery.Meow-GalleryUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.exsquared.meowgallery.Meow-GalleryTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Meow Gallery";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meow Gallery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meow Gallery";
 			};
 			name = Release;
 		};
@@ -619,20 +621,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B7AB23D2D54F3200018A4E3 /* Build configuration list for PBXNativeTarget "Meow GalleryTests" */ = {
+		9B7AB26E2D55E78E0018A4E3 /* Build configuration list for PBXNativeTarget "Meow GalleryUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B7AB23E2D54F3200018A4E3 /* Debug */,
-				9B7AB23F2D54F3200018A4E3 /* Release */,
+				9B7AB26F2D55E78E0018A4E3 /* Debug */,
+				9B7AB2702D55E78E0018A4E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B7AB2402D54F3200018A4E3 /* Build configuration list for PBXNativeTarget "Meow GalleryUITests" */ = {
+		9B7AB2952D5693EA0018A4E3 /* Build configuration list for PBXNativeTarget "Meow GalleryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B7AB2412D54F3200018A4E3 /* Debug */,
-				9B7AB2422D54F3200018A4E3 /* Release */,
+				9B7AB2962D5693EA0018A4E3 /* Debug */,
+				9B7AB2972D5693EA0018A4E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,7 +14,9 @@ struct CatListView: View {
         NavigationView {
             VStack {
                 if viewModel.isLoading {
-                    ProgressView("Loading cats...").padding()
+                    ProgressView("Loading cats...")
+                        .accessibilityIdentifier("loading")
+                        .padding()
                 } else if let error = viewModel.errorMessage {
                     Text(error)
                         .foregroundColor(.red)
@@ -49,20 +51,18 @@ struct CatListView: View {
                                     
 
                                     VStack(alignment: .leading) {
-                                        Text("Cat ID: \(cat.id)")
-                                            .font(.headline)
-                                            
-                                        
-                                        
                                         if let breedName = cat.breeds?.first?.name {
                                             Text(breedName)
-                                                .font(.subheadline)
-                                                .foregroundColor(.gray)
+                                                .font(.headline)
                                         } else {
                                             Text("No breed info")
-                                                .font(.subheadline)
-                                                .foregroundColor(.gray)
+                                                .font(.headline)
                                         }
+                                        
+                                        Text("Cat ID: \(cat.id)")
+                                            .font(.subheadline)
+                                            .foregroundColor(.gray)
+                                            
                                     }
                                     .padding(.leading, 10)
                                     
@@ -76,6 +76,7 @@ struct CatListView: View {
                             HStack {
                                 Spacer()
                                 ProgressView()
+                                    .accessibilityIdentifier("loading-more")
                                 Spacer()
                             }
                             .onAppear {
@@ -83,6 +84,7 @@ struct CatListView: View {
                             }
                         }
                     }
+                    .accessibilityIdentifier("cat-list")
                 }
             }
             .navigationTitle("Meow Gallery")
@@ -90,6 +92,9 @@ struct CatListView: View {
                 Button(action: { viewModel.fetchCats(reset: true) }) {
                     Image(systemName: "arrow.clockwise")
                 }
+            }
+            .onAppear {
+                viewModel.fetchCats(reset: true)
             }
         }
     }

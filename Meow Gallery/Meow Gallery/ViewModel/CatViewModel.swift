@@ -12,15 +12,16 @@ class CatViewModel: ObservableObject {
     @Published var isLoading = false
     @Published var errorMessage: String?
 
+    private let catService: CatServiceProtocol
     private var currentPage = 0
     private let limit = 10
-    private var isFetching = false
+    public var isFetching = false
 
-    init() {
-        fetchCats(reset: true)
+    init(catService: CatServiceProtocol = CatService()) {
+        self.catService = catService
     }
 
-    func fetchCats(reset: Bool = false) {
+    func fetchCats(reset: Bool = false, completionBlock: ((Result<[Cat], Error>) -> Void)? = nil) {
         if isFetching { return }
         
         isFetching = true
@@ -32,7 +33,8 @@ class CatViewModel: ObservableObject {
             cats.removeAll()
         }
 
-        CatService.shared.fetchCats(page: currentPage, limit: limit) { [weak self] result in
+        catService.fetchCats(page: currentPage, limit: limit) {
+            [weak self] result in
             DispatchQueue.main.async {
                 self?.isFetching = false
                 self?.isLoading = false
@@ -41,8 +43,14 @@ class CatViewModel: ObservableObject {
                 case .success(let newCats):
                     self?.cats.append(contentsOf: newCats)
                     self?.currentPage += 1
+                    if completionBlock != nil {
+                        completionBlock?(.success(self!.cats))
+                    }
                 case .failure(let error):
                     self?.errorMessage = "Failed to load cats: \(error.localizedDescription)"
+                    if completionBlock != nil {
+                        completionBlock?(.failure(error))
+                    }
                 }
             }
         }
