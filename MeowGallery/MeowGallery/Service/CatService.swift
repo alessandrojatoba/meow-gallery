@@ -13,7 +13,7 @@ protocol CatAPIServiceProtocol {
 
 class CatAPIService: CatAPIServiceProtocol {
     private let baseURL = "https://api.thecatapi.com/v1/images/search"
-    private let api_key = "live_hlfSPhGRERGtfYQy6oIPbnrcZItNvF94sVzdwrsbIThVV5F9POgeq1yzCLPar0Oi"
+    private let api_key = "{put_your_api_key_here}"
 
     func fetchCats(page: Int, limit: Int, completion: @escaping (Result<[Cat], Error>) -> Void)  {
         let urlString = "\(baseURL)?limit=\(limit)&page=\(page)&has_breeds=1&api_key=\(api_key)"

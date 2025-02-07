@@ -82,7 +82,13 @@ Represents detailed breed information, including:
 
 2. Open `MeowGallery.xcodeproj` in Xcode.
 
-3. Build and run the app on a simulator or device.
+3. Set the API key in the file `CatAPIService.swift` to get the full app features, including breeds info
+
+   ```
+   private let api_key = "{put_your_api_key_here}"
+   ```
+
+4. Build and run the app on a simulator or device.
 
 ## 🧪 Testing
 
